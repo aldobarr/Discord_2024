@@ -9,7 +9,6 @@
   --custom-toolbar-icon-count: 2;
   --background-code: var(--background-secondary) !important;
   --chat-input-icon-size: 20px;
-  --custom-chat-input-margin-bottom: 16px;
 }
 
 .visual-refresh {
@@ -696,7 +695,11 @@
       > .form_f75fb0 {
         padding-left: var(--space-md);
         padding-right: var(--space-md);
-		margin-top: -6px;
+        margin-top: -6px;
+
+        .channelTextArea_f75fb0 {
+          margin-bottom: var(--space-md);
+        }
 
         .channelTextArea__74017 {
           border: none;
